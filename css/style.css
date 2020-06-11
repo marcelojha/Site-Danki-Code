@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+.center{
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1280px;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 90vh;
+	padding: 35px 2%;
+	background-image: url('../imagens/capa.png');
+	background-size: 100% 100%;
+	background-position: center;
+
+}
+
+
+	
+.logo{
+	height: 40px;
+	width: 160px;
+	position: relative;
+	top: -5px;
+	display: inline-block;
+	background-image: url('../imagens/logo-danki.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+nav{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 2%;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	display: inline-block;
+	color: white;
+	margin-right: 30px;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.chamada{
+	max-width: 600px;
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	margin-right: 160px;
+	margin-top: 130px;
+
+}
+
+.chamada h3{
+	font-weight: 5;
+	color: white;
+	font-size: 40px;
+}
+
+.chamada p{
+	margin-top: 10px;
+	color: white;
+}
+
+
