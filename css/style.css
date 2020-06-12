@@ -12,20 +12,21 @@ html,body{
 	clear: both;
 }
 .center{
-	height: 100%;
 	margin: 0 auto;
 	max-width: 1280px;
 	position: relative;
+	height: 100%;
 }
 
 header{
 	width: 100%;
 	height: 90vh;
+	min-height: 500px;
 	padding: 35px 2%;
 	background-image: url('../imagens/capa.png');
 	background-size: 100% 100%;
 	background-position: center;
-
+	font-weight: 300;
 }
 
 
@@ -85,5 +86,133 @@ nav ul li{
 	margin-top: 10px;
 	color: white;
 }
+/*aqui termina o header*/
+
+
+/* inicio da section 1*/
+section.sessao-1{
+	width: 100%;
+	height: 380px;
+	background-color: #472562;
+	position: relative;
+	padding-right: 2%;
+	padding-left: 2%;
+	
+
+}
+section.sessao-1 .center{
+	max-width: 1000px;
+}
+
+.texto-sessao-1{
+	color: white;
+	width: 50%;
+	display: inline-block;
+	padding: 60px 6%;
+	margin-right: -4px;
+	margin-bottom: -4px;
+	vertical-align: top;
+}
+
+.texto-sessao-1 h3{
+	font-size: 24px;
+}
+.texto-sessao-1 h5{
+	margin-top: 20px;
+	font-size: 15px;
+}
+.texto-sessao-1 ul{
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+.sessao-1 button{
+	background-color: #ff703d;
+	color: white;
+	width: 160px;
+	height: 50px;
+	border:none;
+	padding: 10px 2%; 
+	border-radius: 25px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.device-sessao-1{
+	margin-right: -4px;
+	display: inline-block;
+	background-image: url('../imagens/device.png');
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: calc(100% + 35px);
+	margin-right: -4px;
+	margin-bottom: -4px;
+	position: absolute;
+	right: 0;
+	top: -35px;
+
+}
+
+section.sessao-2{
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+}
+section.sessao-2 div.paragrafo{
+	display: inline-block;
+	max-width: 900px;
+}
+
+section.sessao-2 div.paragrafo h4{
+	color: #472663;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+section.sessao-2 div.paragrafo p{
+	margin-top: 15px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+	.chamada{
+		max-width: none;
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		
+
+}
+
+	.chamada h3{
+		font-weight: 5;
+		color: white;
+		font-size: 30px;
+	}
+
+	.chamada p{
+		margin-top: 10px;
+		color: white;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
