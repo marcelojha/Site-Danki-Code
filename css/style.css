@@ -406,6 +406,11 @@ section.sessao-1 .center{
 	nav.desktop-menu{
 		display: none;
 	}
+	header{
+		height: 50vh;
+		min-height: none;
+		max-height: 200px;
+	}
 
 
 @media screen and (max-width: 580px){
@@ -424,12 +429,6 @@ section.sessao-1 .center{
 	div.mim{
 		width: 100%;
 		display: inline-block;
-	}
-
-		header{
-		height: 50vh;
-		min-height: none;
-		max-height: 200px;
 	}
 
 
