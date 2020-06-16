@@ -425,6 +425,10 @@ section.sessao-1 .center{
 		display: inline-block;
 	}
 
+	header{
+		height: 70vh;
+	}
+
 
 
 }
