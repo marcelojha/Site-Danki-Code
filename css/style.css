@@ -402,6 +402,14 @@ section.sessao-1 .center{
 	width: 100%;
 	max-height: 400px;
 }
+	.chamada{
+		max-width: 600px;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+
+	}
 	nav.mobile-menu{
 		display: inline-block;
 	}
