@@ -14,10 +14,9 @@ html,body{
 
 
 header{
-
 	height: 90vh;
 	width: 100%;
-	min-height: 300px;
+	min-height: 400px;
 	padding: 35px 2%;
 	background-image: url('../imagens/capa.png');
 	background-size: cover;
@@ -400,16 +399,9 @@ section.sessao-1 .center{
 	padding: 35px 2%;
 	text-align: center;
 	width: 100%;
-	max-height: 400px;
+	min-height: 400px;
 }
-	.chamada{
-		max-width: 600px;
-		position: relative;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
 
-	}
 	nav.mobile-menu{
 		display: inline-block;
 	}
