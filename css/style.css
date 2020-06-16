@@ -322,6 +322,87 @@ div.texto-autor p{
 	margin-right: 5px;
 }
 
+section.sessao-4{
+	width: 100%;
+	color: white;
+}
+
+section.sessao-4 .center{
+	width: 100%;
+	background-color: #472563;
+	display: flex;
+	flex-direction: row;
+	max-width: none;
+}
+section.sessao-4 div.form{
+	width: 50%;
+	padding: 70px 80px 70px 40px;
+}
+section.sessao-4 div.form h3{
+	font-size: 25px;
+	font-weight: 300;
+}
+section.sessao-4 div.form p{
+	font-size: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 100%;
+	max-width: 330px;
+	text-align: justify;
+}
+
+section.sessao-4 input[type=text]{
+	width: 90%;
+	max-width: 450px;
+	height: 50px;
+	margin-top: 10px;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+section.sessao-4 textarea{
+	width: 90%;
+	max-width: 450px;
+	height: 200px;
+	margin-top: 15px;
+	resize: none;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.sessao-4 button{
+	background-color: #ff703d;
+	color: white;
+	width: 160px;
+	height: 40px;
+	border:none;
+	padding: 10px 2%; 
+	border-radius: 25px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+section.sessao-4 .maps{
+	width: 50%;
+	background-color: #472563; 
+	padding: 70px 80px 70px 40px;
+}
+
+section.sessao-4 .localizacao{
+	width: 100%;
+	max-width: 480px;
+	background-color: red;
+	z-index: 2;
+	
+}
+
+
+
 
 @media screen and (max-width: 800px){
 	
@@ -400,6 +481,8 @@ section.sessao-1 .center{
 	}
 
 }
+
+
 
 @media screen and (max-width: 768px){
 
