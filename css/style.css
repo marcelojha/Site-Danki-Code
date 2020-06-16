@@ -407,6 +407,7 @@ section.sessao-1 .center{
 		display: none;
 	}
 
+
 @media screen and (max-width: 580px){
 
 	section.sessao-3 .center{
@@ -425,9 +426,12 @@ section.sessao-1 .center{
 		display: inline-block;
 	}
 
-	header{
-		height: 70vh;
+		header{
+		height: 50vh;
+		min-height: none;
+		max-height: 200px;
 	}
+
 
 
 
