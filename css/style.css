@@ -333,12 +333,10 @@ header{
 }
 .chamada{
 	max-width: 600px;
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin-right: 0px;
-	margin-top: 130px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 
 }
 
