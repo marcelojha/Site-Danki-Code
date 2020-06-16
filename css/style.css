@@ -323,26 +323,30 @@ div.texto-autor p{
 }
 
 
-
 @media screen and (max-width: 800px){
+	
+header .center{
+	text-align: center;
+}
 
-
-.chamada{
+div.chamada{
 	max-width: 600px;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	width: 100%;
+	display: inline-block;
+	position: static;
+	margin-right: 0px;
+	margin-top: 200px;
+
 
 }
 
-.chamada h3{
+div.chamada h3{
 	font-weight: 5;
 	color: white;
 	font-size: 30px;
 }
 
-.chamada p{
+div.chamada p{
 	font-size: 15px;
 	margin-top: 10px;
 	color: white;
@@ -388,7 +392,7 @@ section.sessao-1 .center{
 	}
 
 	.device-sessao-1{
-		display: none;
+		display:none;
 	}
 
 }
@@ -396,11 +400,11 @@ section.sessao-1 .center{
 @media screen and (max-width: 768px){
 
 	header{
-	padding: 35px 2%;
-	text-align: center;
-	width: 100%;
-	min-height: 400px;
-}
+		padding: 35px 2%;
+		text-align: center;
+		width: 100%;
+		min-height: 400px;
+	}
 
 	nav.mobile-menu{
 		display: inline-block;
@@ -411,7 +415,7 @@ section.sessao-1 .center{
 	
 
 
-@media screen and (max-width: 568px){
+@media screen and (max-width: 580px){
 
 	section.sessao-3 .center{
 		width: 100%;
