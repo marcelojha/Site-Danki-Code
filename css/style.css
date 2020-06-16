@@ -327,15 +327,19 @@ div.texto-autor p{
 	
 header .center{
 	text-align: center;
+	position: relative;
 }
 
 div.chamada{
 	max-width: 600px;
 	width: 100%;
 	display: inline-block;
-	position: static;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	margin-right: 0px;
-	margin-top: 200px;
+	margin-top: 0px;
 
 
 }
@@ -343,11 +347,11 @@ div.chamada{
 div.chamada h3{
 	font-weight: 5;
 	color: white;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 div.chamada p{
-	font-size: 15px;
+	font-size: 13px;
 	margin-top: 10px;
 	color: white;
 }
